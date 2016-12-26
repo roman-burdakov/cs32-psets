@@ -1,0 +1,7 @@
+node_modules
+bower_components
+dist
+src/js/config.js
+.idea
+*.iml
+src/js/services/GoogleApiCredentials.js

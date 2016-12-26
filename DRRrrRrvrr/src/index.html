@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app="gDrive" ng-cloak>
+  <head>
+    <link rel="stylesheet" href="styles.css"/>
+    <script>
+      function init() {
+        gapi.client.load('drive', 'v2');
+      }
+    </script>
+    <script src="https://apis.google.com/js/client.js?onload=init"></script>
+    <script src="vendors.js"></script>
+    <script src="app.js"></script>
+    <title>Google DRRrrRrvrr</title>
+  </head>
+
+  <body class="container">
+    <h1>Hello Google DRRrrRrvrr!</h1>
+      <auth></auth>
+      <div ng-view></div>
+    </div>
+  </body>
+</html>

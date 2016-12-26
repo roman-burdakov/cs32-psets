@@ -1,0 +1,7 @@
+<div class="col-md-12 well">
+  <h2>Documents</h2>
+  <ul>
+    <li class="list-group-item" ng-repeat="document in lc.googleDriveService.documents">
+      <a href="#/view/{{document.id}}">{{document.title}}</a></li>
+  </ul>
+</div>
